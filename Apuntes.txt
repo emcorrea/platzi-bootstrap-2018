@@ -1,0 +1,24 @@
+PLATZI:
+
+==Bootstrap 4.0==
+
+1. Grilla.
+
+Para agregar una grilla a nuestro sitio debemos ocupar la clase container, esta clase
+dejara unos margenes a los lados, donde hará nuestro sitio responsive. Tambien existe 
+la clase container-fluid que esta ocupa el 100% del ancho de la pantalla.
+
+Las grillas siempre deben contener columnas para esto se ocupa la clase row cada fila posee 
+12 columnas
+
+Y para las columnas se ocupa la clase col. Esta clase se puede argumentar para definir
+cuanto es el ancho que ocupara cada columna, siempre cuando la suma de todas las columnas debe ser 12
+Ejemplo: col-3 y col-9. Si la suma fuera mayor, se pondría un salto de pagina.
+
+Tambien se pueden definir clases para pantallas pequeñas y grandes dentro de un mismo div
+Por Ejemplo
+<div class="col-12 col-lg-3"> = Esto esta diciendo que para pantallas grandes ocupe 3 columnas
+y para pantallas pequeñas 12 columnas 
+
+Para centrar elementos dentro de un div debemos ocupar la clase text-center
+    
